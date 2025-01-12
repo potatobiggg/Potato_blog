@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>HTML Template</title>
     <style>
-        /* 通用样式 */
+        /* 閫氱敤鏍峰紡 */
         body {
-            font-family: Arial, Helvetica, sans-serif; /* 可根据需要修改字体 */
+            font-family: Arial, Helvetica, sans-serif; /* 鍙牴鎹渶瑕佷慨鏀瑰瓧浣� */
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-color: #f9f9f9; /* 背景颜色 */
-            color: #333; /* 文字颜色 */
+            background-color: #f9f9f9; /* 鑳屾櫙棰滆壊 */
+            color: #333; /* 鏂囧瓧棰滆壊 */
         }
 
         header {
-            background: #0078d7; /* 蓝色头部 */
+            background: #0078d7; /* 钃濊壊澶撮儴 */
             color: white;
             padding: 1rem 0;
             text-align: center;
@@ -36,33 +36,61 @@
         }
 
         a {
-            color: #0078d7; /* 链接的颜色 */
+            color: #0078d7; /* 閾炬帴鐨勯鑹� */
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
         }
+
+        .button {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #005bb5;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>欢迎访问我的网站</h1>
+        <h1>娆㈣繋璁块棶鎴戠殑缃戠珯</h1>
     </header>
     <main>
-        <h2>关于我们</h2>
-        <p>这是一个简单的 HTML 网页模板，使用 UTF-8 字符编码，兼容各种浏览器。</p>
-        <p>您可以根据需求自定义内容和样式。</p>
+        <h2>鍏充簬鎴戜滑</h2>
+        <p>杩欐槸涓€涓畝鍗曠殑 HTML 缃戦〉妯℃澘锛屼娇鐢� UTF-8 瀛楃缂栫爜锛屽吋瀹瑰悇绉嶆祻瑙堝櫒銆�</p>
+        <p>鎮ㄥ彲浠ユ牴鎹渶姹傝嚜瀹氫箟鍐呭鍜屾牱寮忋€�</p>
 
-        <h3>联系我们</h3>
-        <p>如果有任何问题，请通过以下方式联系我们：</p>
+        <h3>鑱旂郴鎴戜滑</h3>
+        <p>濡傛灉鏈変换浣曢棶棰橈紝璇烽€氳繃浠ヤ笅鏂瑰紡鑱旂郴鎴戜滑锛�</p>
         <ul>
-            <li>邮箱: <a href="mailto:example@example.com">example@example.com</a></li>
-            <li>电话: +123-456-7890</li>
+            <li>閭: <a href="mailto:example@example.com">example@example.com</a></li>
+            <li>鐢佃瘽: +123-456-7890</li>
         </ul>
+
+        <!-- 娣诲姞璺宠浆鎸夐挳 -->
+        <button class="button" onclick="goToBilibili()">鍓嶅線 Bilibili</button>
     </main>
     <footer>
-        <p>&copy; 2025 我的公司. 保留所有权利。</p>
+        <p>&copy; 2025 鎴戠殑鍏徃. 淇濈暀鎵€鏈夋潈鍒┿€�</p>
     </footer>
+
+    <script>
+        // 璺宠浆鍒� Bilibili 鐨勫嚱鏁�
+        function goToBilibili() {
+            window.location.href = "https://www.bilibili.com";
+        }
+    </script>
 </body>
 </html>
